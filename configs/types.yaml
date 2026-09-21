@@ -1,0 +1,24 @@
+labels:
+  macro: outputs/kefrin_t/labels_affect_fe_K4_learned_windowlog.csv
+  sub: outputs/kefrin_t/labels_affect_fe_K6_learned_windowlog.csv
+  beh: outputs/kefrin_t/labels_affect_fe_K5_learned_beh_windowlog.csv
+graph: outputs/learned_graph/windowlog
+names:
+  macro:
+    0: Крупные и средние города
+    1: Северные и ресурсные
+    2: Столичные агломерации
+    3: Сельские и малые
+  sub:
+    0: Сельские и малые
+    1: Полугородские промышленные районы
+    2: Удалённые районы Востока и Сибири
+    3: Северные ресурсные центры
+    4: Региональные центры
+    5: Столичные агломерации
+  beh:
+    0: Базовая корзина малых городов
+    1: Продукты и маркетплейсы
+    2: Дорогая корзина без онлайна
+    3: Транспортная корзина
+    4: Общепит и услуги

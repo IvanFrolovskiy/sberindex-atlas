@@ -1,0 +1,83 @@
+{
+ "n_communities": 5,
+ "ami_between_months_mean": 0.4764184644241318,
+ "ami_with_macro": 0.4792309460227056,
+ "ari_with_macro": 0.48826727202042175,
+ "ami_with_sub": 0.41483582281314585,
+ "ami_with_beh": 0.46628759677129084,
+ "purity_macro_rows": {
+  "Крупные и средние города": 0.533,
+  "Северные и ресурсные": 0.487,
+  "Сельские и малые": 0.955,
+  "Столичные агломерации": 0.942
+ },
+ "purity_communities": {
+  "0": 0.749,
+  "1": 0.872,
+  "2": 0.686,
+  "3": 0.905,
+  "4": 1.0
+ },
+ "communities": {
+  "0": {
+   "n": 1322,
+   "lon": 56.982,
+   "pop_median": 18029.5,
+   "wage_median": 53229.6,
+   "access_median": 317.4,
+   "urban_median": 0.42,
+   "total_median": 23811.958,
+   "regions": 65,
+   "dominant_type": "Сельские и малые",
+   "dominant_share": 0.749
+  },
+  "1": {
+   "n": 298,
+   "lon": 35.367,
+   "pop_median": 78721.5,
+   "wage_median": 124829.0,
+   "access_median": 524.1,
+   "urban_median": 1.0,
+   "total_median": 49615.25,
+   "regions": 11,
+   "dominant_type": "Столичные агломерации",
+   "dominant_share": 0.872
+  },
+  "2": {
+   "n": 277,
+   "lon": 60.344,
+   "pop_median": 76770.0,
+   "wage_median": 73499.3,
+   "access_median": 306.5,
+   "urban_median": 0.92,
+   "total_median": 33956.5,
+   "regions": 60,
+   "dominant_type": "Крупные и средние города",
+   "dominant_share": 0.686
+  },
+  "3": {
+   "n": 105,
+   "lon": 127.549,
+   "pop_median": 16750.0,
+   "wage_median": 118405.7,
+   "access_median": 137.4,
+   "urban_median": 0.56,
+   "total_median": 41692.25,
+   "regions": 16,
+   "dominant_type": "Северные и ресурсные",
+   "dominant_share": 0.905
+  },
+  "4": {
+   "n": 14,
+   "lon": 91.646,
+   "pop_median": 14116.0,
+   "wage_median": 52012.35,
+   "access_median": 183.85,
+   "urban_median": 0.0,
+   "total_median": 24753.208,
+   "regions": 3,
+   "dominant_type": "Сельские и малые",
+   "dominant_share": 1.0
+  }
+ }
+}

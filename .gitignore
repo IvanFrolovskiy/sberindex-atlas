@@ -1,0 +1,41 @@
+# окружение
+.venv/
+.venv312/
+__pycache__/
+third_party/__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+.env
+.env.*
+.vscode/
+.idea/
+
+# исходные и промежуточные данные — скачиваются scripts/download_data.py и собираются make panel
+data/raw/*.parquet
+data/raw/*.zip
+data/raw/*.rar
+data/raw/*.gpkg
+data/raw/*.xlsx
+data/raw/*.pdf
+data/raw/hackathon/
+data/raw/hackathonlicence/
+data/raw/rosstat/
+data/raw/t_dict_municipal_districts*
+data/processed/
+
+# тяжёлые промежуточные результаты и логи прогонов
+outputs/learned_graph/**/*.npz
+outputs/edge_rules/*.npz
+outputs/site_check/
+outputs/qa_site/
+outputs/*.log
+outputs/**/*.log
+
+# сторонний код без явной лицензии — скачивается make third_party
+third_party/canus.py
+
+# рабочие заметки и промежуточные сборки
+research/
+STATE.md
+report/*.html

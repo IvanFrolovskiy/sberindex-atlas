@@ -1,0 +1,31 @@
+paths:
+  processed: data/processed
+  outputs: outputs
+
+data:
+  consumption: data/raw/hackathon/hackathonlicence/consumption.parquet
+  market_access: data/raw/hackathon/hackathonlicence/market_access.parquet
+  connection: data/raw/hackathon/hackathonlicence/connection.parquet
+  dictionary: data/raw/t_dict_municipal_districts.xlsx
+  rosstat_population: data/raw/rosstat/Y48112027_2022_2024.csv
+  rosstat_wages: data/raw/rosstat/Y48423007_2022_2024.csv
+  rosstat_employment: data/raw/rosstat/Y48423005_2022_2024.csv
+
+panel:
+  categories: ["Продовольствие", "Здоровье", "Общественное питание", "Маркетплейсы", "Транспорт"]
+  total: "Все категории"
+  min_months: 24
+  dictionary_year: 2024
+
+features:
+  clr_eps: 1.0e-6
+
+graph:
+  k: 15
+  mutual: true
+  metric: cosine
+
+clustering:
+  k_range: [4, 5, 6, 7, 8, 9, 10, 12]
+  n_init: 10
+  seed: 42
